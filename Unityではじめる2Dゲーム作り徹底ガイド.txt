@@ -1,0 +1,42 @@
+Unityではじめる2Dゲーム作り徹底ガイド[初版第三刷]について、誤植と思われる点などを箇条書きにて報告致します。
+
+・p.38 Update()内 Collider2Dの変数名、「collition2d」ではなく「collision2d」?
+
+・p.75 MonoBehaviourクラスと～ の下の文、「Playe_NonPhysics2D.cs」ではなく「Player_NonPhysics2D.cs」?
+
+・p.77 可変フレームと固定フレームの話に移る直前　「transform.Tranlate」ではなく「transform.Translate」?
+
+・p.79 下から4行目再びTranlateになっている。
+
+・p.81 OnGUIメッセージの処理の2つ上の行「～ありまず。」になっている。
+
+・p.101 一番上の行 「働いていま」になっている。
+
+・p.146 図5.1.12の下の行「アニメ─ショーン」の部分、2つ目の伸ばし棒不要で、そのうえ1つ目の伸ばし棒が罫線になっている?
+
+・p.160 メッセージ処理5行目「tranform」ではなく「transform」?
+
+・p.180 表5.3.8 rigidbody2Dのプロパティはすべてスタティック変数なのか(たとえばpositionなど)?
+
+・p.230 コード7.1.1 「GetTranform」ではなく「GetTransform」?
+
+・p.240 ENEMYAISTSの最後の名前 「FREEZ」ではなく「FREEZE」?
+
+・p.242 「public float GetDistanePlayerX()」ではなく「-DistancePlayerX()」(Yも同様の誤り、p.245のcase ENEMYAISTS>RUNTOPLAYER:のif文の条件内にも誤りが伝搬している)?
+
+・p.302 図8.28① 「ZOne」ではなく「Zone」?
+
+・p.443 図11.2.13「BoxCollide2D」ではなく「BoxCollider」(p.516 図11.5.16も同様)?
+
+・p.450 jumpInputのコメント 「fales」ではなく「false」?
+
+・p.508 追加部分 speedVxAddPowerに代入するのではなくaddVelocityVxに代入?(ここが誤りである自信はない)
+
+・p.574 下から3行目 「Add Componennt」ではなく「Add Component」?
+
+・p.596 Awake()の下の行 「格ゲームオブジェクト」ではなく「各ゲームオブジェクト」?
+
+・p.596 Awake()のforeach文の下の行 「zFoxGamaObjectLoader」ではなく「zFoxGameObjectLoader」?
+ 
+以上になります。
+お手数おかけして申し訳ありません。
